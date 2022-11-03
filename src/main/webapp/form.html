@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+</head>
+<body>
+<h2>Project 4 from.html / form_ok.jsp</h2>
+
+<form action="form_ok.jsp" method="post" class = "row g-3">
+    <div class = "col-md-6">
+        <label for="fname" class="form-label">First name:</label><br>
+        <input type="text" class = "form-control" id="fname" name="fname" value="Kyoungrun"><br>
+        <label for="lname" class="form-label">Last name:</label><br>
+        <input type="text" class = "form-control" id="lname" name="lname" value="Park"><br><br>
+    </div>
+
+    <div class = "col-md-6">
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+    </div>
+
+    <label for="grade">Choose your grade:</label>
+    <select id="grade" name="grade">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select><br><br>
+
+    <label for="school">Your school name:</label><br>
+    <input type="text" id="school" name="school" value="school"><br><br>
+
+    <label for="email">Enter your email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="bool">Are you part of CSEE department?:</label><br>
+    <input type="radio" id="bool" name="bool" value="yes">
+    <label for="bool">yes</label><br>
+    <input type="radio" id="bool" name="bool" value="no">
+    <label for="bool">no</label><br><br>
+
+    Area of interest: <br>
+    <input type="checkbox" id="area1" name="area1" value="Machine Learning / Deep Learning">
+    <label for="area1"> Machine Learning / Deep Learning</label><br>
+    <input type="checkbox" id="area2" name="area2" value="Web / Mobile Application">
+    <label for="area2"> Web / Mobile Application</label><br>
+    <input type="checkbox" id="area3" name="area3" value="Server Programming">
+    <label for="area3"> Server Programming</label><br><br>
+
+    <label for="fav_language">Favorite Language:</label><br>
+    <input type="radio" id="fav_language" name="fav_language" value="C">
+    <label for="fav_language">C</label><br>
+    <input type="radio" id="fav_language" name="fav_language" value="PYTHON">
+    <label for="fav_language">PYTHON</label><br>
+    <input type="radio" id="fav_language" name="fav_language" value="JAVA">
+    <label for="fav_language">JAVA</label><br><br>
+
+    Your OS: <br>
+    <input type="checkbox" id="os1" name="os1" value="WINDOWS">
+    <label for="os1"> I use windows</label><br>
+    <input type="checkbox" id="os2" name="os2" value="MACOS">
+    <label for="os2"> I use macOS</label><br>
+    <input type="checkbox" id="os3" name="os3" value="LINUX">
+    <label for="os3"> I use Linux</label><br><br>
+
+    <textarea name="message" rows="10" cols="30">
+        WRITE YOUR FAVORITE BIBLE VERSE
+        </textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
